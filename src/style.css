@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  background-image: linear-gradient(rgb(175, 219, 255), rgb(255, 226, 214));
+  border-radius: 30px;
+  padding: 30px;
+  margin: 5px auto;
+  max-width: 600px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  margin-left: 125px;
+}
+
+.weather-day {
+  text-align: center;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+.weather-day-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.weather-day span {
+  text-align: center;
+}
+
+.search-city-bar {
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  margin-right: 5px;
+  margin-left: -40px;
+}
+
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+  text-align: center;
+  margin-top: 40px;
+}
